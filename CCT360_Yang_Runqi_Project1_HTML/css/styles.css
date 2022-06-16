@@ -1,0 +1,183 @@
+
+
+/* Submenu Styling */
+#subNav{
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+#subNav ul{
+    max-width: 80rem;
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    min-height: 20px;
+
+}
+
+#subNav ul li{
+    list-style-type: none;
+    white-space: nowrap;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+ 
+#subNav ul li a{
+    font-family: Georgia, serif;
+    color: #fff;
+    display: flex;
+    padding: 13px 16px;
+    text-decoration: none;
+    line-height: 1.4;
+    font-weight: 700;
+
+}
+
+#subNav ul li a:hover{
+    text-decoration: underline;
+    -webkit-text-stroke: 1px #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+/* Logo background Styling */
+header{
+    background-image: 
+    linear-gradient(to bottom, rgba(215, 146, 81, 0.85), rgba(117, 19, 93, 0.55)), url(../img/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 40px; 
+    min-width: 35rem;
+
+}
+
+#Navigation{
+    width: 80rem;
+    display: flex;
+    max-width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 65rem;
+}
+
+#search {
+    color: #fff;
+}
+
+#search:hover {
+    -webkit-text-stroke: 1px #fff;
+}
+
+#Navigation .logo img{
+    width: 200px;
+    height: 150px;
+    vertical-align: top;
+}
+
+.spacingDiv{
+    flex-grow: 0;
+    padding-left: 30px;
+}
+  
+.sideMenu{
+    align-self:center;
+}
+  
+.sideMenu a{
+    display: block;
+    cursor: pointer;
+}
+  
+
+#banner{
+    color: #fff;
+    max-width: 65rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#overlay{
+    text-align: center;
+    font-family: 'Futura';
+}
+
+#overlay h1{
+    font-size: 50px;
+    font-style: italic;
+}
+
+#overlay h2{
+    font-size: 20px;
+    font-weight: 2;
+}
+
+/* body paragraph Styling */
+#maincontent{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 60px;
+    background-color: #ae4340;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    min-width: 35rem;
+}
+
+#maincontent h1{
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 80;
+    font-family: 'Futura'
+
+}
+
+
+p{
+    color: #fff;
+    font-size: 25px;
+    font-family: Verdana, sans-serif;
+    max-width: 65rem;
+    min-width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* footer background Styling */
+#footer {
+    display: block;
+    width: 100%;
+    height: 50px;
+    bottom: 0px;
+    background-color: #c48b29;
+    color: #fff;
+    text-align: center;
+}
+
+#footer li {
+    list-style-type: none;
+    flex: 1 1 230px;
+    font-size: .75rem;
+    font-weight: 700;
+
+}
+
+#footer .copyright{
+    width: 100%;
+    text-align: center;
+    padding: 18px;
+}
+
+#footer .copyright a{
+    color: #f2f2aa
+    ;
+}
+
+
